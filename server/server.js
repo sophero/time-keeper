@@ -1,3 +1,6 @@
+require('./config/config');
+const config = require('./config/config.json');
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
